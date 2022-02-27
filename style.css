@@ -45,6 +45,9 @@
 .tile:nth-child(1), .tile:nth-child(4), .tile:nth-child(7) {
 	border-left: none;
 }
+.tile:nth-child(1), .tile:nth-child(4), .tile:nth-child(7) {
+	border-right: none;
+}
 
 .tile:nth-child(3), .tile:nth-child(6), .tile:nth-child(9) {
 	border-right: none;
@@ -52,6 +55,10 @@
 
 .tile:nth-child(7), .tile:nth-child(8), .tile:nth-child(9) {
 	border-bottom: none;
+}
+
+.tile:nth-child(3), .tile:nth-child(6), .tile:nth-child(9) {
+	border-left: none;
 }
 
 .player {
@@ -76,7 +83,6 @@
     margin-left: 1em;
     cursor: pointer;
 }
-
 
 #reset {
     background-color: #000000;
